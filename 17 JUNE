@@ -1,4 +1,4 @@
-Palindrome Number...
+Palindrome Number(LeetCode-9)...
 
 class Solution {
     public boolean isPalindrome(int x) {
@@ -34,3 +34,49 @@ class Solution {
 
 Palindrome String...
 
+---------------------------------------------------------------------------------------------------------------
+
+Count minimum no. of steps...
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int a[] = {1,2,3,4,5};
+        int steps = 0;
+        int distance;
+        
+        System.out.println("Enter the distance to be covered");
+        distance =sc.nextInt();
+        
+        int rem = distance % 5;
+        if(rem != 0){
+            steps++;
+        }
+        steps = steps + distance/5;
+        System.out.println(steps);
+    }
+}
+
+----------------------------------------------------------------------------------------------------------------
+
+Find who will win A or B...
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int n;
+        System.out.println("Enter a no.");
+        n = sc.nextInt();
+        
+        if(n%3 == 0){
+            System.out.println("B wins...");
+        }
+        else{
+            System.out.println("A wins...");
+        }
+    }
+}
