@@ -1,4 +1,4 @@
-Palindrome Number(LeetCode-9)...
+1. Palindrome Number(LeetCode-9)...
 
 class Solution {
     public boolean isPalindrome(int x) {
@@ -31,7 +31,7 @@ class Solution {
 
 ---------------------------------------------------------------------------------------------------------------
 
-Palindrome String...
+2. Palindrome String...
 
 import java.util.Scanner;
 public class PalindromeCheck {
@@ -65,7 +65,7 @@ public class PalindromeCheck {
 
 ---------------------------------------------------------------------------------------------------------------
 
-Count minimum no. of steps...
+3. Count minimum no. of steps...
 
 import java.util.*;
 class Main {
@@ -90,7 +90,7 @@ class Main {
 
 ---------------------------------------------------------------------------------------------------------------
 
-Find who will win A or B...
+4. Find who will win A or B...
 
 import java.util.*;
 class Main {
@@ -112,7 +112,7 @@ class Main {
 
 --------------------------------------------------------------------------------------------------------------
 
-Input an array and print it...
+5. Input an array and print it...
 
 import java.util.*;
 class Main {
@@ -136,7 +136,7 @@ class Main {
 
 --------------------------------------------------------------------------------------------------------------
 
-Calculate sum and average of an array...
+6. Calculate sum and average of an array...
 
 import java.util.*;
 class Main {
