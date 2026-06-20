@@ -1,4 +1,4 @@
-If-Else ladder...
+1. If-Else ladder...
 
 import java.util.Scanner;
 
@@ -43,7 +43,7 @@ public class GradeCalculator {
 
 -------------------------------------------------------------------------------
 
-Pattern 1...
+2. Pattern 1...
 
 * * * * *
 * * * * *
@@ -66,7 +66,7 @@ class Main {
 
 -----------------------------------------------------------------------------------
 
-Pattern 2...
+3. Pattern 2...
 
 *
 * *
@@ -89,7 +89,7 @@ class Main {
 
 -----------------------------------------------------------------------------------
 
-Reverse Integer(LeetCode problem 7)...
+4. Reverse Integer(LeetCode problem 7)...
 
 class Solution {
     public int reverse(int x) {
