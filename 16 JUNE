@@ -1,6 +1,45 @@
 If-Else ladder...
 
+import java.util.Scanner;
 
+public class GradeCalculator {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Marks: ");
+        int marks = sc.nextInt();
+
+        if (marks >= 40 && marks <= 49) {
+            System.out.println("Grade: D");
+        }
+        else if (marks >= 50 && marks <= 59) {
+            System.out.println("Grade: D+");
+        }
+        else if (marks >= 60 && marks <= 69) {
+            System.out.println("Grade: C");
+        }
+        else if (marks >= 70 && marks <= 75) {
+            System.out.println("Grade: C+");
+        }
+        else if (marks >= 76 && marks <= 80) {
+            System.out.println("Grade: B+");
+        }
+        else if (marks >= 81 && marks <= 87) {
+            System.out.println("Grade: A");
+        }
+        else if (marks >= 88 && marks <= 96) {
+            System.out.println("Grade: A");
+        }
+        else if (marks > 96) {
+            System.out.println("Grade: A+");
+        }
+        else {
+            System.out.println("Fail");
+        }
+
+        sc.close();
+    }
+}
 
 -------------------------------------------------------------------------------
 
